@@ -112,11 +112,12 @@ $ git init unicorn-protocol
 $ cd unicorn-protocol
 $ git checkout --orphan main
 $ git remote add origin https://github.com/unicorn-wg/unicorn-protocol
-# Copy a template in place, change the filename and title.
+# Copy a template in place, change the filename, and in that file, the title and docName.
 $ git add draft-*.{md,xml}
 $ git commit -m "Initial version blah blah blah"
 $ git push -u origin main
 $ git clone https://github.com/martinthomson/i-d-template lib
+$ echo lib > .gitignore
 $ make -f lib/setup.mk
 $ git push
 ```
