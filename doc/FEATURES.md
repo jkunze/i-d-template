@@ -73,7 +73,7 @@ under `.github/workflows/` (see below).
 Using [GitHub Actions](https://github.com/features/actions) you get automated
 continuous integration that can:
 
-* Check that commits and pull requests for errors.
+* Check commits and pull requests for errors.
 * Automatically maintain a readable copy for display on GitHub Pages.
 * Automatically save a copy of GitHub issues and pull requests to the repository
   for offline access.  This includes a simple HTML viewer.
